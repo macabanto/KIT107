@@ -103,9 +103,10 @@ public class Time implements TimeInterface
     {
         return ((this.hour == that.hour) && (this.minute == that.minute) && (this.second == that.second));
     }
-    
+
     public void addSeconds(double s){
         setTime(this.hour, this.minute, ((this.second)+1));//adds a second to the current time
     }
- 
+
+    
 }
